@@ -1,0 +1,89 @@
+// colors
+
+$primary-text-color: #212121;
+$accent-text-color: #000000;
+$title-text-color: #757575;
+$accent-color: #2196f3;
+$primary-white-color: #ffffff;
+$bg-color-black: #2f303a;
+$bg-color-white: #f5f4fa;
+$bdr-color-white: #ececec;
+$bdr-color-secondary-white: #eeeeee;
+$bdr-color-sand: #afb1b8;
+
+// fonts
+
+$primary-fonts: 'Roboto';
+$accent-fonts: 'Raleway';
+
+body {
+  background-color: $primary-white-color;
+  color: $primary-text-color;
+  font-family: $primary-fonts, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+header {
+  background-color: $primary-white-color;
+  border-bottom: 1px solid $bdr-color-white;
+}
+
+footer {
+  background-color: $bg-color-black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+// утилиты
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
