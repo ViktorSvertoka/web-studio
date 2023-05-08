@@ -1,0 +1,36 @@
+.footer-sections {
+  // width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: $bg-color-black;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+
+  @media screen and (min-width: 320px) {
+    display: block;
+  }
+
+  @media screen and (min-width: 480px) {
+    display: block;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 165px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+}
