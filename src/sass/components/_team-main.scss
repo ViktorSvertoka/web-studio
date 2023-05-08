@@ -1,0 +1,161 @@
+.team {
+  background-color: $bg-color-white;
+
+  @media screen and (min-width: 320px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 480px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.team__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  // margin-bottom: 50px;
+
+  @media screen and (min-width: 320px) {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.18;
+  }
+
+  @media screen and (min-width: 480px) {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.18;
+  }
+}
+
+.team__list {
+  // width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  // display: flex;
+  // align-items: center;
+
+  @media screen and (min-width: 320px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media screen and (min-width: 480px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.team__item {
+  width: 270px;
+  // margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: $primary-white-color;
+
+  // &--changing-properties:last-child {
+  //   margin: 0;
+  // }
+
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+}
+
+.team__specialist {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  @media screen and (min-width: 320px) {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 480px) {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+.team__job-title {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: $title-text-color;
+
+  @media screen and (min-width: 480px) {
+    margin-bottom: 16px;
+  }
+}
+
+.team__block {
+  display: flex;
+  justify-content: center;
+  margin: 16px 32px 30px 32px;
+
+  @media screen and (min-width: 480px) {
+    padding-bottom: 24px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 0;
+  }
+}
+
+.team__button {
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: $primary-white-color;
+  fill: $bdr-color-sand;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--active:hover,
+  &--active:focus {
+    background-color: $accent-color;
+    fill: $primary-white-color;
+  }
+}
