@@ -29,7 +29,12 @@
 }
 
 .company__item {
-  width: 100%;
+  // width: 100%;
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 2 * 30px) / 2);
     width: 354px;
