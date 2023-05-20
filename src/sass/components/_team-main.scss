@@ -34,8 +34,8 @@
 
 .team__list {
   // width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  // padding-left: 15px;
+  // padding-right: 15px;
   // display: flex;
   // align-items: center;
 
@@ -60,6 +60,8 @@
   @media screen and (min-width: 1200px) {
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
+    gap: 30px;
   }
 }
 
@@ -84,7 +86,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 354px;
+    width: 320px;
   }
 
   @media screen and (min-width: 1200px) {
