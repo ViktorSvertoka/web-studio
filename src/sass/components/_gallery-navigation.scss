@@ -4,9 +4,22 @@
 
 .gallery-navigation__list {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 298px 50px 297px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  gap: 8px;
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
 }
 
 .gallery-navigation__item {
