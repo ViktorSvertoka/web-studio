@@ -45,10 +45,8 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  // padding: 32px;
   background-color: $primary-white-color;
   z-index: 999;
-
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }

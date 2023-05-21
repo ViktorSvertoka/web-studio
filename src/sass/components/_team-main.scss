@@ -17,7 +17,6 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  // margin-bottom: 50px;
 
   @media screen and (min-width: 320px) {
     margin-bottom: 30px;
@@ -33,12 +32,6 @@
 }
 
 .team__list {
-  // width: 1200px;
-  // padding-left: 15px;
-  // padding-right: 15px;
-  // display: flex;
-  // align-items: center;
-
   @media screen and (min-width: 320px) {
     padding-left: 15px;
     padding-right: 15px;
@@ -67,15 +60,11 @@
 
 .team__item {
   width: 270px;
-  // margin-right: 30px;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background: $primary-white-color;
-
-  // &--changing-properties:last-child {
-  //   margin: 0;
-  // }
 
   @media screen and (min-width: 320px) {
     width: 320px;
