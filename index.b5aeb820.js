@@ -1,0 +1,2 @@
+(()=>{const e=document.querySelector("[data-modal-open]"),t=document.querySelector("[data-modal-close]"),d=document.querySelector("[data-modal]"),n=document.querySelector(".backdrop");function c(){d.classList.toggle("is-hidden")}e.addEventListener("click",c),t.addEventListener("click",c),n.addEventListener("click",(function(e){e.target===n&&c()})),window.addEventListener("keydown",(function(e){"Escape"!==e.code||d.classList.contains("is-hidden")||c()}))})();
+//# sourceMappingURL=index.b5aeb820.js.map

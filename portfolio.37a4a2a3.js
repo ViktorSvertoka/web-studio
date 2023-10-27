@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".filter-js"),t=document.querySelectorAll(".item-js"),s=null;e.addEventListener("click",(function(e){if("BUTTON"!==e.target.nodeName)return;var a=document.querySelector(".is-active-js");a&&a.classList.remove("is-active-js");var i=e.target;i.classList.add("is-active-js"),s=i.dataset.value,t.forEach((function(e){"all"===s||e.dataset.tag===s?e.classList.remove("is-hidden-js"):e.classList.add("is-hidden-js")}))}))}();
+//# sourceMappingURL=portfolio.37a4a2a3.js.map
