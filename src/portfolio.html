@@ -14,6 +14,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./sass/index.scss" />
     <title>Портфоліо</title>
@@ -246,8 +250,10 @@
 
             <ul class="gallery">
               <li
-                class="gallery__item gallery__item--active item-js"
+                class="gallery__item gallery__item--active item-js wow animate__animated animate__fadeInLeftBig"
                 data-tag="web"
+                data-wow-duration="1s"
+                data-wow-delay="0.9s"
               >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
@@ -273,8 +279,10 @@
                 </a>
               </li>
               <li
-                class="gallery__item gallery__item--active item-js"
+                class="gallery__item gallery__item--active item-js wow animate__animated animate__fadeInLeftBig"
                 data-tag="design"
+                data-wow-duration="1s"
+                data-wow-delay="0.6s"
               >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
@@ -302,8 +310,10 @@
                 </a>
               </li>
               <li
-                class="gallery__item gallery__item--active item-js"
+                class="gallery__item gallery__item--active item-js wow animate__animated animate__fadeInLeftBig"
                 data-tag="applications"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
               >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
@@ -329,8 +339,10 @@
                 </a>
               </li>
               <li
-                class="gallery__item gallery__item--active item-js"
+                class="gallery__item gallery__item--active item-js wow animate__animated animate__fadeInRightBig"
                 data-tag="marketing"
+                data-wow-duration="1s"
+                data-wow-delay="1.3s"
               >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
@@ -356,8 +368,10 @@
                 </a>
               </li>
               <li
-                class="gallery__item gallery__item--active item-js"
+                class="gallery__item gallery__item--active item-js wow animate__animated animate__fadeInRightBig"
                 data-tag="applications"
+                data-wow-duration="1s"
+                data-wow-delay="1.6s"
               >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
@@ -383,8 +397,10 @@
                 </a>
               </li>
               <li
-                class="gallery__item gallery__item--active item-js"
+                class="gallery__item gallery__item--active item-js wow animate__animated animate__fadeInRightBig"
                 data-tag="web"
+                data-wow-duration="1s"
+                data-wow-delay="1.9s"
               >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
@@ -410,8 +426,10 @@
                 </a>
               </li>
               <li
-                class="gallery__item gallery__item--active item-js"
+                class="gallery__item gallery__item--active item-js wow animate__animated animate__fadeInLeftBig"
                 data-tag="design"
+                data-wow-duration="1s"
+                data-wow-delay="0.9s"
               >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
@@ -437,8 +455,10 @@
                 </a>
               </li>
               <li
-                class="gallery__item gallery__item--active item-js"
+                class="gallery__item gallery__item--active item-js wow animate__animated animate__fadeInLeftBig"
                 data-tag="marketing"
+                data-wow-duration="1s"
+                data-wow-delay="0.6s"
               >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
@@ -464,8 +484,10 @@
                 </a>
               </li>
               <li
-                class="gallery__item gallery__item--active item-js"
+                class="gallery__item gallery__item--active item-js wow animate__animated animate__fadeInLeftBig"
                 data-tag="applications"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
               >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
@@ -589,5 +611,9 @@
     <!--js script-->
     <script type="module" src="./js/filters.js"></script>
     <script type="module" src="./js/mobile-menu.js"></script>
+    <script src="./js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
