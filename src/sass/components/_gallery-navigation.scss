@@ -57,3 +57,9 @@
     color: $primary-white-color;
   }
 }
+
+.is-active-js {
+  background-color: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: $primary-white-color;
+}

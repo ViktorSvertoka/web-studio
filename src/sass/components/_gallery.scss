@@ -3,6 +3,7 @@
   grid-template-columns: auto;
   gap: 30px 30px;
   align-items: stretch;
+  justify-content: center;
 
   @media screen and (min-width: 480px) {
     grid-template-columns: auto;
@@ -11,7 +12,7 @@
     grid-template-columns: auto auto;
   }
   @media screen and (min-width: 1200px) {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 370 370 auto;
   }
 }
 
@@ -93,4 +94,18 @@
   line-height: 1.88;
   color: $title-text-color;
   margin: 0;
+}
+
+.is-hidden-js {
+  transform: scale(0.3);
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

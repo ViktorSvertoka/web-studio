@@ -184,13 +184,14 @@
         <div class="container">
           <div class="gallery-navigation">
             <h1 style="display: none">Прихований</h1>
-            <ul class="gallery-navigation__list">
+            <ul class="gallery-navigation__list filter-js">
               <li
                 class="gallery-navigation__item gallery-navigation__item--changing-properties gallery-navigation__item--active"
               >
                 <button
                   type="button"
-                  class="gallery-navigation__button gallery-navigation__button--active"
+                  class="gallery-navigation__button gallery-navigation__button--active is-active-js"
+                  data-value="all"
                 >
                   Усі
                 </button>
@@ -201,6 +202,7 @@
                 <button
                   type="button"
                   class="gallery-navigation__button gallery-navigation__button--active"
+                  data-value="web"
                 >
                   Веб-сайти
                 </button>
@@ -211,6 +213,7 @@
                 <button
                   type="button"
                   class="gallery-navigation__button gallery-navigation__button--active"
+                  data-value="applications"
                 >
                   Додатки
                 </button>
@@ -221,6 +224,7 @@
                 <button
                   type="button"
                   class="gallery-navigation__button gallery-navigation__button--active"
+                  data-value="design"
                 >
                   Дизайн
                 </button>
@@ -231,6 +235,7 @@
                 <button
                   type="button"
                   class="gallery-navigation__button gallery-navigation__button--active"
+                  data-value="marketing"
                 >
                   Маркетинг
                 </button>
@@ -240,7 +245,10 @@
             <!--gallery-->
 
             <ul class="gallery">
-              <li class="gallery__item gallery__item--active">
+              <li
+                class="gallery__item gallery__item--active item-js"
+                data-tag="web"
+              >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
                     <img
@@ -264,7 +272,10 @@
                   </div>
                 </a>
               </li>
-              <li class="gallery__item gallery__item--active">
+              <li
+                class="gallery__item gallery__item--active item-js"
+                data-tag="design"
+              >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
                     <img
@@ -290,7 +301,10 @@
                   </div>
                 </a>
               </li>
-              <li class="gallery__item gallery__item--active">
+              <li
+                class="gallery__item gallery__item--active item-js"
+                data-tag="applications"
+              >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
                     <img
@@ -314,7 +328,10 @@
                   </div>
                 </a>
               </li>
-              <li class="gallery__item gallery__item--active">
+              <li
+                class="gallery__item gallery__item--active item-js"
+                data-tag="marketing"
+              >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
                     <img
@@ -338,7 +355,10 @@
                   </div>
                 </a>
               </li>
-              <li class="gallery__item gallery__item--active">
+              <li
+                class="gallery__item gallery__item--active item-js"
+                data-tag="applications"
+              >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
                     <img
@@ -362,7 +382,10 @@
                   </div>
                 </a>
               </li>
-              <li class="gallery__item gallery__item--active">
+              <li
+                class="gallery__item gallery__item--active item-js"
+                data-tag="web"
+              >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
                     <img
@@ -386,7 +409,10 @@
                   </div>
                 </a>
               </li>
-              <li class="gallery__item gallery__item--active">
+              <li
+                class="gallery__item gallery__item--active item-js"
+                data-tag="design"
+              >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
                     <img
@@ -410,7 +436,10 @@
                   </div>
                 </a>
               </li>
-              <li class="gallery__item gallery__item--active">
+              <li
+                class="gallery__item gallery__item--active item-js"
+                data-tag="marketing"
+              >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
                     <img
@@ -434,7 +463,10 @@
                   </div>
                 </a>
               </li>
-              <li class="gallery__item gallery__item--active">
+              <li
+                class="gallery__item gallery__item--active item-js"
+                data-tag="applications"
+              >
                 <a href="##" class="gallery__link gallery__link--active">
                   <div class="gallery__images-block">
                     <img
@@ -555,6 +587,7 @@
       </address>
     </footer>
     <!--js script-->
-    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/filters.js"></script>
+    <script type="module" src="./js/mobile-menu.js"></script>
   </body>
 </html>
