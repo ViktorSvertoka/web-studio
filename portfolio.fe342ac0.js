@@ -1,2 +1,0 @@
-const e=document.querySelector(".filter-js"),t=document.querySelectorAll(".item-js");let s=null;e.addEventListener("click",(function(e){if("BUTTON"!==e.target.nodeName)return;const a=document.querySelector(".is-active-js");a&&a.classList.remove("is-active-js");const c=e.target;c.classList.add("is-active-js"),s=c.dataset.value,t.forEach((e=>{"all"===s||e.dataset.tag===s?e.classList.remove("is-hidden-js"):e.classList.add("is-hidden-js")}))}));
-//# sourceMappingURL=portfolio.fe342ac0.js.map
